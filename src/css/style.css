@@ -42,12 +42,12 @@ h3 {font-size: 18px;}
 .footer_txt1 {font-size: 18px; font-weight: 700; margin-bottom: 20px;}
 
 /* progress bar */
-.progress_bar {height: 15px; background-color: #275c3b; position: fixed; top: 0; margin: 0 auto; width: 0%;}
+.progress_bar {height: 15px; background-color: #275c3b; position: fixed; top: 0; width: 0%;}
 
 
 
 @media only screen and (max-width: 1100px) {
- .body_inner {padding: 12px;  padding-bottom: 44px;  width: 100%;}   
+ .body_inner {padding: 12px;  padding-bottom: 44px;  width: 100%; margin: 0 auto;}   
  .header_inner {padding-top: 20px;}
  .header_icon h1 {font-size: 14px;}
  .header_menu_item + li {margin-left: 10px;}
