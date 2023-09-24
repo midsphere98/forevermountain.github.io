@@ -9,7 +9,7 @@ h1 {font-size: 24px;}
 h2 {font-size: 42px;}
 h3 {font-size: 18px;}
 
-.body_inner {overflow-x: hidden; padding: 30px 0; width: 980px; margin: 0 auto; width: 100%;}
+.body_inner {overflow-x: hidden; padding: 30px 0; width: 980px; margin: 0 auto;}
 
 /* header */
 .header_inner {display: flex; justify-content: space-between; align-items: center; padding: 40px 0 50px 0; }
@@ -47,7 +47,7 @@ h3 {font-size: 18px;}
 
 
 @media only screen and (max-width: 1100px) {
- .body_inner {padding: 12px;  padding-bottom: 44px;}   
+ .body_inner {padding: 12px;  padding-bottom: 44px;  width: 100%;}   
  .header_inner {padding-top: 20px;}
  .header_icon h1 {font-size: 14px;}
  .header_menu_item + li {margin-left: 10px;}
