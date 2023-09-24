@@ -42,7 +42,7 @@ h3 {font-size: 18px;}
 .footer_txt1 {font-size: 18px; font-weight: 700; margin-bottom: 20px;}
 
 /* progress bar */
-.progress_bar {height: 15px; background-color: #275c3b; position: fixed; top: 0; width: 0%;}
+.progress_bar {height: 15px; background-color: #275c3b; position: fixed; top: 0; margin: 0 auto; width: 0%;}
 
 
 
