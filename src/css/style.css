@@ -8,7 +8,7 @@ a:hover {color: #00BC70;}
 /* h2, h3 {color: #427b58;} */
 h1 {font-size: 24px; color: #00BC70; font-weight: 900;}
 h2 {font-size: 48px; color: #00BC70;}
-h3 {font-size: 18px;}
+h3 {font-size: 22px;}
 
 :root {--swiper-theme-color: #fff;}
 
@@ -16,7 +16,7 @@ h3 {font-size: 18px;}
 
 /* header */
 .header_inner {display: flex; justify-content: space-between; align-items: center; padding: 40px 0 50px 0; }
-.header_menu {display: flex; font-weight: 400; font-size: 18px; margin-left: 8px;}
+.header_menu {display: flex; font-weight: 700; font-size: 18px; margin-left: 8px; flex-wrap: wrap; justify-content: flex-end;}
 .header_menu_item + li {margin-left: 42px;}
 .header_icon {position: relative; }
 
@@ -40,7 +40,7 @@ h3 {font-size: 18px;}
 .main_conts + .main_conts {margin-top: 160px;}
 
 .main_txt1 {margin-bottom: 16px;}
-.main_txt2 {font-size: 16px;}
+.main_txt2 {font-size: 18px;}
 .main_list_item + .main_list_item {margin-top: 24px;}
 
 
@@ -62,13 +62,14 @@ h3 {font-size: 18px;}
 @media only screen and (max-width: 1100px) {
  .body_inner {width: auto; padding: 0 12px 44px 12px}    
  .header_inner {padding-top: 20px;}
- .header_icon h1 {font-size: 14px;}
+ .header_icon h1 {font-size: 18px;}
  .header_menu_item + li {margin-left: 10px;}
- .header_menu {font-size: 12px;}
+ .header_menu {font-size: 16px;}
 
  .main_conts + .main_conts {margin-top: 100px;}
 
- .main_txt2 {font-size: 14px;}
+ .main_txt2 {font-size: 16px;}
+ h3 {font-size: 20px;}
 
  .w50 {width: 100%;}
  .footer_conts {display: block;}
