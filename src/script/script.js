@@ -18,7 +18,7 @@ window.addEventListener('scroll', function (e) {
 
 // animation
 AOS.init({
-            duration: 800,
+            duration: 1500,
             easeing: 'ease-in-out',
         });
 
@@ -34,7 +34,7 @@ const swiper = new Swiper('.swiper', {
   },
 
   autoplay: {
-    delay: 3000,
+    delay: 5000,
   },
 });
 

@@ -10,7 +10,7 @@ h1 {font-size: 24px; color: #00BC70; font-weight: 900;}
 h2 {font-size: 48px; color: #00BC70;}
 h3 {font-size: 22px;}
 
-:root {--swiper-theme-color: #fff;}
+:root {--swiper-theme-color: #00BC70;}
 
 .body_inner {overflow-x: hidden; padding: 30px 0; width: 980px; margin: 0 auto;}
 
@@ -31,12 +31,11 @@ h3 {font-size: 22px;}
 .main_img img {width: 100%; height: auto; filter: grayscale(1); transition: all 300ms ease-in-out; }
 .main_img img:hover {filter: grayscale(0);}
 
-.w50 {width: 50%;}
-.l_side {margin-right: auto;}
-.r_side {margin-left: auto;}
+.side_l {margin-right: auto;}
+.side_r {margin-left: auto;}
 
 .main_conts h2 {margin-bottom: 48px; position: relative;}
-/* .main_conts h2::after {display: block; content: ''; border-top: 1px solid #000; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;} */
+.main_conts[class*=side] {width: 70%;}
 .main_conts + .main_conts {margin-top: 160px;}
 
 .main_txt1 {margin-bottom: 16px;}
@@ -47,8 +46,9 @@ h3 {font-size: 22px;}
 /* footer */
 .footer_inner {border-top: 1px solid #000; padding-top: 50px; margin-top: 120px;}
 .footer_conts {display: flex;}
-.footer_txt_wrap {}
+.footer_txt_wrap {width: 50%;}
 .footer_txt1 {font-size: 18px; font-weight: 700; margin-bottom: 20px;}
+.footer_txt1 a:hover {color: #000;}
 
 /* progress bar */
 .progress_bar {height: 15px; /* background-color: #275c3b; */ background-color: #00BC70;  position: fixed; top: 0; width: 0%; z-index: 1;}
@@ -60,7 +60,7 @@ h3 {font-size: 22px;}
 
 
 @media only screen and (max-width: 1100px) {
- .body_inner {width: auto; padding: 0 12px 44px 12px}    
+ .body_inner {width: auto; padding: 0 24px 44px;}    
  .header_inner {padding-top: 20px;}
  .header_icon h1 {font-size: 18px;}
  .header_menu_item + li {margin-left: 10px;}
@@ -71,12 +71,13 @@ h3 {font-size: 22px;}
  .main_txt2 {font-size: 16px;}
  h3 {font-size: 20px;}
 
- .w50 {width: 100%;}
+ .main_conts[class*=side] {width: 100%;}
  .footer_conts {display: block;}
 
  h2 {font-size: 28px;}
  .main_conts h2 {margin-bottom: 28px;}
 
+ .footer_txt_wrap {width: 100%;}
  .footer_txt1 {font-size: 16px;}
  .footer_txt_wrap + .footer_txt_wrap {margin-top: 24px;}
  .footer_inner {padding-top: 30px;}
